@@ -20,7 +20,7 @@ zero.logger.level = 'warn'
 zero.version = [2, 2143, 3]
 zero.browserDescription = [ 'Zero', 'Firefox', '3.0' ]
 console.log(banner.string)
-console.log(color('[•] [ CREATED BY ZERO YT7 ] [•]'))
+console.log(color('[•] [ CREATED BY TZYDIN ] [•]'))
 console.log(color('Please Follow Me On Sosial Media'))
 console.log(color(' ==============================================='))
 console.log(color('│ ○ Youtube : https://youtube.com/zero                     '))
@@ -93,7 +93,7 @@ ppUrl = 'https://telegra.ph/file/c9dfa715c26518201f478.jpg'
 }
 img = await getBuffer(ppUrl)
 teks = `Hallo @${anu_user}\nSelamat Datang Di Group: ${mdata.subject}\n\nSemoga Betah Ya Di Group Ini`
-sendButImage(anu.jid, teks, `©Created By Zero YT7`, img,but = [{buttonId:`hallo`, 
+sendButImage(anu.jid, teks, `©Created By TZYDINBOTZ`, img,but = [{buttonId:`hallo`, 
 buttonText:{displayText: 'SELAMAT DATANG!!!'},type:1}], options = {contextInfo: {mentionedJid: [num, number]},thumbnail: Buffer.alloc(0)})
 } else if (anu.action == 'remove') {
 num = anu.participants[0]
@@ -104,7 +104,7 @@ ppUrl = 'https://i.ibb.co/6BRf4Rc/Hans-Bot-No-Profile.png'
 }
 img = await getBuffer(ppUrl)
 teks = `Bye Bye @${num.split('@')[0]}\nHore... Beban Group Berkurang Selamat Tinggal Di Group: ${mdata.subject}`
-sendButImage(anu.jid, teks, `©Created By Zero YT7`, img,but= [{buttonId: `byebye`, buttonText: {displayText: `SELAMAT TINGGAL!!!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, number]}, thumbnail: Buffer.alloc(0)})
+sendButImage(anu.jid, teks, `©Created By TZYDINBOTZ`, img,but= [{buttonId: `byebye`, buttonText: {displayText: `SELAMAT TINGGAL!!!`}, type: 1}], options = {contextInfo: {mentionedJid: [num, number]}, thumbnail: Buffer.alloc(0)})
 }
 if (anu.action == "promote") {
 anu_user = zero.contacts[mem]
